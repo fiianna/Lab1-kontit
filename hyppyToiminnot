@@ -1,0 +1,26 @@
+public class Esteratsastus {
+
+    private boolean puomiPaikoillaan = true;
+
+    public void hyppyYli(boolean osui) {
+        if (osui && puomiPaikoillaan) {
+            puomiTippuu();
+        }
+    }
+    private void puomiTippuu() {
+        puomiPaikoillaan = false;   
+    }
+
+    public static void main(String[] args) {
+        Esteratsastus esteratsastus = new Esteratsastus();
+
+        // Ratsastaja hyppää yli esteen osumatta puomiin
+        esteratsastus.hyppyYli(false);
+
+        // Ratsastaja osuu puomiin ja se tippuu
+        esteratsastus.hyppyYli(true);
+
+        // Yritetään uudelleen, mutta puomi on jo maassa
+        esteratsastus.hyppyYli(true);
+    }
+}
