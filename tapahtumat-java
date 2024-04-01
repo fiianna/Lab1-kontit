@@ -1,0 +1,8 @@
+public class Tapahtumat {
+
+    private boolean osallistujatPaikalla = true;
+
+    public void aloitakilpailu(boolean jako) {
+        if (jako && osallistujatPaikalla) {
+            kilpailijatValmiita ();
+        }
