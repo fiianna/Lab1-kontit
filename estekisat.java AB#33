@@ -1,4 +1,4 @@
-public class Estekisat {
+public class Estekisat{
 
     private boolean osallistujatPaikalla = true;
 
