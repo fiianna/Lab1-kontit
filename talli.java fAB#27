@@ -1,0 +1,8 @@
+public class HeppaTalli {
+
+    private boolean tapahtumat = true;
+
+    public void luoTapahtuma(boolean jako) {
+        if (jako && osallistujatPaikalla) {
+            kilpailijatValmiita ();
+        }
