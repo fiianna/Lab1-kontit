@@ -10,7 +10,7 @@ public class Esteratsastus {
     private void puomiTippuu() {
         puomiPaikoillaan = false;   
     }
-
+    // ratsastaja menee esteradalle
     public static void main(String[] args) {
         Esteratsastus esteratsastus = new Esteratsastus();
 
