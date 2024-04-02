@@ -21,6 +21,6 @@ public class Esteratsastus {
         esteratsastus.hyppyYli(true);
 
         // Yritetään uudelleen, mutta puomi on jo maassa
-        esteratsastus.hyppyYli(true);
+        esteratsastus.hyppyOsui(true);
     }
 }
